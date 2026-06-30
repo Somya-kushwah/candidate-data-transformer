@@ -1,0 +1,37 @@
+[
+    {
+        "candidate_id": "001",
+        "name": "Rahul Sharma",
+        "email": "rahul@gmail.com",
+        "skills": [
+            "Python",
+            "python programming",
+            "SQL"
+        ],
+        "experience": "3 years",
+        "education": "B.Tech"
+    },
+    {
+        "candidate_id": "002",
+        "name": "Amit Verma",
+        "email": "amit@gmail.com",
+        "skills": [
+            "Java",
+            "SQL"
+        ],
+        "experience": "2 years",
+        "education": "BCA"
+    },
+    {
+        "candidate_id": "004",
+        "name": "Priya Singh",
+        "email": "priya@gmail.com",
+        "skills": [
+            "Excel",
+            "SQL",
+            "Data Analysis"
+        ],
+        "experience": "1 year",
+        "education": "MBA"
+    }
+]

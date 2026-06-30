@@ -1,0 +1,172 @@
+
+
+# Candidate Data Transformer - Design Document
+
+
+## 1. System Overview
+
+The system collects candidate information from multiple sources and converts it into a single clean candidate profile.
+
+Sources:
+
+1. recruiter.csv (Structured Data)
+
+2. resumes.json (Unstructured Resume Data)
+
+
+---
+
+## 2. Processing Pipeline
+
+
+Input Sources
+
+        |
+
+        ↓
+
+Data Extraction
+
+        |
+
+        ↓
+
+Data Normalization
+
+        |
+
+        ↓
+
+Duplicate Candidate Detection
+
+        |
+
+        ↓
+
+Profile Merge
+
+        |
+
+        ↓
+
+Confidence Score Calculation
+
+        |
+
+        ↓
+
+Final Candidate JSON
+
+
+---
+
+## 3. Candidate Matching Logic
+
+
+Candidates are matched using:
+
+Primary key:
+
+- Email address
+
+
+Example:
+
+Rahul Sharma
+rahul@gmail.com
+
+
+and
+
+
+Rahul S.
+rahul@gmail.com
+
+
+are considered the same candidate.
+
+
+---
+
+## 4. Normalization Rules
+
+
+Phone:
+
+9876543210
+
+98765-43210
+
+
+Converted to:
+
++91-9876543210
+
+
+Skills:
+
+python programming
+
+python
+
+py
+
+
+Converted to:
+
+Python
+
+
+---
+
+## 5. Output Schema
+
+
+candidate_id
+
+full_name
+
+emails
+
+phones
+
+skills
+
+experience
+
+education
+
+provenance
+
+overall_confidence
+
+
+---
+
+## 6. Edge Cases Handled
+
+
+1. Duplicate candidates from different sources
+
+
+2. Missing resume information
+
+
+3. Different skill naming formats
+
+
+4. Different phone number formats
+
+
+---
+
+## 7. Technology Used
+
+
+Python
+
+Pandas
+
+JSON Processing
+
+
