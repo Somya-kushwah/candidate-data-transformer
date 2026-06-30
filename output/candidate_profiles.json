@@ -1,0 +1,96 @@
+[
+    {
+        "candidate_id": 1,
+        "full_name": "Rahul Sharma",
+        "emails": [
+            "rahul@gmail.com"
+        ],
+        "phones": [
+            "+91-9876543210"
+        ],
+        "skills": [
+            "Python",
+            "SQL"
+        ],
+        "experience": [
+            "3 years"
+        ],
+        "education": [
+            "B.Tech"
+        ],
+        "provenance": [
+            {
+                "source": "recruiter.csv",
+                "matched": true
+            },
+            {
+                "source": "resumes.json",
+                "matched": true
+            }
+        ],
+        "overall_confidence": 0.99
+    },
+    {
+        "candidate_id": 2,
+        "full_name": "Amit Verma",
+        "emails": [
+            "amit@gmail.com"
+        ],
+        "phones": [
+            "+91-9999999999"
+        ],
+        "skills": [
+            "Java",
+            "SQL"
+        ],
+        "experience": [
+            "2 years"
+        ],
+        "education": [
+            "BCA"
+        ],
+        "provenance": [
+            {
+                "source": "recruiter.csv",
+                "matched": true
+            },
+            {
+                "source": "resumes.json",
+                "matched": true
+            }
+        ],
+        "overall_confidence": 0.95
+    },
+    {
+        "candidate_id": 4,
+        "full_name": "Priya Singh",
+        "emails": [
+            "priya@gmail.com"
+        ],
+        "phones": [
+            "+91-8888888888"
+        ],
+        "skills": [
+            "Excel",
+            "SQL",
+            "Data Analysis"
+        ],
+        "experience": [
+            "1 year"
+        ],
+        "education": [
+            "MBA"
+        ],
+        "provenance": [
+            {
+                "source": "recruiter.csv",
+                "matched": true
+            },
+            {
+                "source": "resumes.json",
+                "matched": true
+            }
+        ],
+        "overall_confidence": 0.95
+    }
+]
