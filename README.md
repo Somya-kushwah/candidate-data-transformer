@@ -125,4 +125,10 @@ Pandas
 
 JSON
 
+## Sample Output
+
+The final transformed candidate profiles are available in:
+
+output/candidate_profiles.json
+
 
